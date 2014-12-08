@@ -1,0 +1,14 @@
+language: php
+
+php:
+  - 5.5
+  - 5.4
+
+env:
+  - CORTEX_ENV="local"
+
+before_script: 
+  - composer install --prefer-source --dev --no-interaction --quiet
+
+script:
+  - ./vendor/bin/phpunit -v -c ./phpunit.xml.dist 
