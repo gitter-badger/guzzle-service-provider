@@ -1,7 +1,7 @@
 {
     "name": "cfralick/guzzle-service-provider",
     "description": "Silex Service Provider for Guzzle 4.0",
-    "license": "BSD",
+    "license": "BSD-2-Clause",
     "keywords": ["guzzle","silex","pimple","provider"],
     "authors": [
         {
